@@ -17,11 +17,12 @@ class CashRegister
       else
           @items << name
       end
-        @total += quantity * price
+        @total += quantity * price 
         @new_total = @total
         @total
     end
 
-
+    def apply_discount
+    end
 
 end
